@@ -4,7 +4,7 @@ import cors from 'cors';
 import router from './routes/index.js'
 
 const app = express();
-const port = 8000;
+const port = process.env.Port || 8000;
 
 
 
